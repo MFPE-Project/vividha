@@ -1,0 +1,18 @@
+login: post
+http://localhost:5000/api/customer/login
+
+register:post
+http://localhost:5000/api/customer/register
+
+apply loan:post
+http://localhost:5000/api/routes/loan/applyLoan
+
+view loan :get
+http://localhost:5000/api/routes/loan
+
+update customer:put
+
+http://localhost:5000/api/update/customer/611391300a074324908291a2
+
+logout:post
+http://localhost:5000/api/customer/logout
